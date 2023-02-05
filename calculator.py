@@ -502,23 +502,23 @@ def Calculadora():
                 y = aux
             print(fibonacci)
             print("")
-            Continuar = input("¿Desea Continuar con esta Opción?(S/N): ")
+            Continuar = input("¿Desea Continuar con esta Opción?(yes/no): ")
  
-            if Continuar == "s" or Continuar == "S":
+            if Continuar == "yes" or Continuar == "YES" or Continuar == "Yes":
                 opc = 16
  
-            elif Continuar == "n" or Continuar == "N":
+            elif Continuar == "no" or Continuar == "NO" or Continuar == "No":
                 print("")
                 opc = int(input("Selecione nº de Opción: "))
  
             else:
                 print("")
-                Continuar = input("Por Favor escoja(S/N): ")
+                Continuar = input("Por Favor escoja(yes/no): ")
  
-                if Continuar == "s" or Continuar == "S":
+                if Continuar == "yes" or Continuar == "YES" or Continuar == "Yes":
                     opc = 16
  
-                elif Continuar == "n" or Continuar == "N":
+                elif Continuar == "no" or Continuar == "NO" or Continuar == "No":
                     print("")
                     opc = int(input("Selecione nº de Opción: "))
  
