@@ -504,21 +504,21 @@ def Calculadora():
             print("")
             Continuar = input("¿Desea Continuar con esta Opción?(yes/no): ")
  
-            if Continuar == "yes" or Continuar == "YES" or Continuar == "Yes":
+            if Continuar == "s" or Continuar == "S":
                 opc = 16
  
-            elif Continuar == "no" or Continuar == "NO" or Continuar == "No":
+            elif Continuar == "n" or Continuar == "N":
                 print("")
                 opc = int(input("Selecione nº de Opción: "))
  
             else:
                 print("")
-                Continuar = input("Por Favor escoja(yes/no): ")
+                Continuar = input("Por Favor escoja(S/N): ")
  
-                if Continuar == "yes" or Continuar == "YES" or Continuar == "Yes":
+                if Continuar == "s" or Continuar == "S":
                     opc = 16
  
-                elif Continuar == "no" or Continuar == "NO" or Continuar == "No":
+                elif Continuar == "n" or Continuar == "N":
                     print("")
                     opc = int(input("Selecione nº de Opción: "))
  
